@@ -36,7 +36,7 @@ bindkey -e
 # prompt
 autoload -Uz colors && colors
 # PROMPT='%F{green}%n@%m%f:%F{blue}%~%f %# '
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # useful aliases
 alias ls='eza'
@@ -64,6 +64,7 @@ source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 # Node.js
 export PATH=$HOME/.npm-global/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 # zoxide (スマートなcdコマンド)
 eval "$(zoxide init zsh)"
