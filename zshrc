@@ -35,7 +35,7 @@ bindkey -e
 
 # prompt
 autoload -Uz colors && colors
-# PROMPT='%F{green}%n@%m%f:%F{blue}%~%f %# '
+PROMPT='%F{green}%n@%m%f:%F{blue}%~%f %# '
 # eval "$(starship init zsh)"
 
 # useful aliases
