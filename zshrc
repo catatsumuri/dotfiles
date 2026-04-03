@@ -32,6 +32,14 @@ zmodload zsh/complist
 
 # key bindings
 bindkey -e
+# Ctrl+W 単語削除
+bindkey '^W' backward-kill-word
+
+# Alt+Backspace 単語削除（mac便利）
+bindkey '^[^?' backward-kill-word
+
+# Ctrl+U 行削除（念のため）
+bindkey '^U' backward-kill-line
 
 # prompt
 autoload -Uz colors && colors
