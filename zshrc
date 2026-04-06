@@ -1,5 +1,6 @@
-# apt install zsh-autosuggestions zsh-syntax-highlighting zoxide starship
+# apt install zsh-autosuggestions zsh-syntax-highlighting zoxide starship eza
 # git clone https://github.com/Aloxaf/fzf-tab ~/.zsh/fzf-tab
+# git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.zsh/zsh-history-substring-search
 
 # Kiro CLI pre block. Keep at the top of this file.
 [[ -f "${HOME}/.local/share/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/.local/share/kiro-cli/shell/zshrc.pre.zsh"
